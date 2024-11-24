@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Upskillr - Develop Essential Soft Skills</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(to right, #2575fc);
+        }
+
+        /* Modify colors */
+        .btn-primary {
+            background-color: #2575fc;
+            color: white;
+        }
+
+       
+
+        .text-primary {
+            color: #2575fc;
+        }
+
+        .bg-primary {
+            background-color: #2575fc;
+        }
+
+        
+
+        
+    </style>
+</head>
+
+<body class="bg-gray-100 text-gray-900">
+    <!-- Navbar -->
+    <nav class="bg-primary shadow-md">
+        <div class="container mx-auto px-4 py-2 flex justify-between items-center">
+            <div class="flex items-center">
+                <img alt="Upskillr logo" class="h-10 w-10" height="50" src="https://storage.googleapis.com/a1aa/image/WNPzpYfcN5R6BCInlvV4ZIf3QyMA7HPG4eeRMdQ87vai3uPPB.jpg" width="50" />
+                <span class="ml-2 text-xl font-bold text-white">Upskillr</span>
+            </div>
+            <div>
+                <a class="text-white hover:text-gray-400 mx-2" href="#home">Home</a>
+                <a class="text-white hover:text-gray-400 mx-2" href="#dashboard">Dashboard</a>
+                <a class="text-white hover:text-gray-400 mx-2" href="#training">Training</a>
+                <a class="text-white hover:text-gray-400 mx-2" href="#assessment">Assessment</a>
+                <a class="text-white hover:text-gray-400 mx-2" href="#profile">Profile</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section class="bg-secondary py-12" id="home">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl font-bold text-black">
+                Welcome to Upskillr
+            </h1>
+            <p class="mt-4 text-lg text-white">
+                Develop essential soft skills for career and personal growth.
+            </p>
+            <div class="mt-6">
+                <a class="btn-primary px-4 py-2 rounded-md mx-2" href="#get-started">Get Started</a>
+                <a class="btn-primary px-4 py-2 rounded-md mx-2" href="#login">Log In</a>
+                <a class="btn-primary px-4 py-2 rounded-md mx-2" href="#learn-more">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skill Training Modules Section -->
+    <!-- <section class="py-12" id="training">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-primary">Training Modules</h2>
+            <div class="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-primary">Communication Training</h3>
+                    <p class="mt-2 text-gray-700">Learn how to communicate effectively with video tutorials, speech simulation, and interactive sessions.</p>
+                    <a class="btn-primary px-4 py-2 rounded-md mt-4" href="#communication-training">Start Training</a>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-primary">Conflict Resolution</h3>
+                    <p class="mt-2 text-gray-700">Understand the steps to resolve conflicts with interactive lessons and role-play activities.</p>
+                    <a class="btn-primary px-4 py-2 rounded-md mt-4" href="#conflict-resolution">Start Training</a>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-primary">Teamwork Skills</h3>
+                    <p class="mt-2 text-gray-700">Enhance your teamwork abilities with group exercises, communication practice, and video-based learning.</p>
+                    <a class="btn-primary px-4 py-2 rounded-md mt-4" href="#teamwork-skills">Start Training</a>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Communication Training Page -->
+    <section class="bg-blue-100 py-12" id="communication-training">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-primary">Communication Training Overview</h2>
+            <div class="mt-8 flex">
+                <div class="w-1/3">
+                    <h3 class="text-2xl font-semibold text-primary">Course Content</h3>
+                    <ul class="mt-4">
+                        <li>Video Tutorials</li>
+                        <li>Interactive Sessions</li>
+                        <li>Speech Simulation</li>
+                    </ul>
+                </div>
+                <div class="w-2/3">
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-semibold text-primary">Sample Video Tutorial</h3>
+                        <video controls class="w-full mt-4">
+                            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md mt-8">
+                        <h3 class="text-xl font-semibold text-primary">Interactive Session</h3>
+                        <button class="btn-primary px-4 py-2 rounded-md mt-4" onclick="alert('Interactive Session Started!')">Start Session</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Progress Tracker -->
+            <div class="bg-white p-6 rounded-lg shadow-md mt-8">
+                <h3 class="text-xl font-semibold text-primary">Progress Tracker</h3>
+                <div class="w-full bg-gray-200 rounded-full h-4 mt-4">
+                    <div class="bg-primary h-4 rounded-full" style="width: 30%;"></div>
+                </div>
+                <p class="mt-2 text-gray-700">30% Completed</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-primary py-6">
+        <div class="container mx-auto text-center text-white">
+            <p>&copy; 2024 Upskillr. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
